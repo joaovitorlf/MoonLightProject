@@ -1,10 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    background: #4f4f4f;
-    
+    background: #777777;;
+    font-family: 'Open Sans', sans-serif;
      }
 p {
     text-align: center;
+    color: #fff;
   }
 em strong {
-    color: #4f4f4f
+    color: #0a0a0a
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+strong {
+  color: #0a0a0a
+}
+.boxbtn{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.boxbtn li a{
+  color: black;
+  background-color: gold;
+  padding: 10px;
+  text-decoration: none;
+  transition: background .4s;
+}
+
+.menu{
+  background-color: #474747;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.menu ul{
+  display: flex;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.menu ul li a {
+  /*color: #0a0a0a;*/
+  background-color: #474747;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  transition: background .4s;
+}
+
+.menu ul li a:hover{
+  background-color: rgb(24, 139, 233); 
+  /*background-color: #262626; */
+}
+
+/*
+.menu ul li:first-child a {
+  float: left;
+}*/
+
+.menu-direita{
+  float: right;
+}
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-right: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
